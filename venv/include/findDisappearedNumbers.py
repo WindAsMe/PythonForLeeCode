@@ -15,11 +15,15 @@ class Solution:
         :type nums: List[int]
         :rtype: List[int]
         """
-        temp = list(set(nums))
-        print(temp)
-        result = []
-        for i in range(0, len(nums)):
-            if i + 1 != temp[i]:
+        n = len(nums)
+        for i in range(0, n):
+            index = abs(nums[i]) - 1
+            if nums[index] > 0:
+                nums[index] *= -1
+
+        result =[]
+        for i in range(0, n):
+            if nums[i] > 0:
                 result.append(i + 1)
         return result
 
