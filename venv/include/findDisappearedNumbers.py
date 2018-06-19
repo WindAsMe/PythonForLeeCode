@@ -15,15 +15,14 @@ class Solution:
         :type nums: List[int]
         :rtype: List[int]
         """
-        nums.sort()
+        temp = list(set(nums))
+        print(temp)
         result = []
-        for i in range(0, len(nums) - 1):
-            if nums[i + 1] - nums[i] > 1:
-                print(nums[i + 1], nums[i])
-                for index in range(nums[i] + 1, nums[i + 1]):
-                    result.append(index)
+        for i in range(0, len(nums)):
+            if i + 1 != temp[i]:
+                result.append(i + 1)
         return result
 
 
 if __name__ == '__main__':
-    print(Solution.findDisappearedNumbers([4,3,2,7,8,2,3,1]))
+    print(Solution.findDisappearedNumbers([1,1]))
