@@ -26,4 +26,4 @@ class Solution:
 
 
 if __name__ == '__main__':
-    print(Solution.distribute_candies([1,1,2,3,4,4]))
+    print(Solution.distribute_candies([1, 1, 2, 3, 4, 4]))
