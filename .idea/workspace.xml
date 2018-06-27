@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28aa7202-ee64-4880-8f8e-8eed1907d8f9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/venv/include/findDisappearedNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/include/findDisappearedNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/include/distributeCandies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,6 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PythonForLeeCode$findDisappearedNumbers.coverage" NAME="findDisappearedNumbers Coverage Results" MODIFIED="1529380673213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include" />
     <SUITE FILE_PATH="coverage/PythonForLeeCode$intersection.coverage" NAME="intersection Coverage Results" MODIFIED="1529210855184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include" />
+    <SUITE FILE_PATH="coverage/PythonForLeeCode$distributeCandies.coverage" NAME="distributeCandies Coverage Results" MODIFIED="1530072183608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include" />
     <SUITE FILE_PATH="coverage/PythonForLeeCode$intersect.coverage" NAME="intersect Coverage Results" MODIFIED="1529211173470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include" />
     <SUITE FILE_PATH="coverage/PythonForLeeCode$integerBreak.coverage" NAME="integerBreak Coverage Results" MODIFIED="1529249994004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/include" />
   </component>
@@ -31,17 +33,26 @@
       <file leaf-file-name="intersect.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/include/intersect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
+            <state relative-caret-position="418">
               <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="findDisappearedNumbers.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="findDisappearedNumbers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/include/findDisappearedNumbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="distributeCandies.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/include/distributeCandies.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="24" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -65,6 +76,7 @@
         <option value="$PROJECT_DIR$/venv/include/intersect.py" />
         <option value="$PROJECT_DIR$/venv/include/integerBreak.py" />
         <option value="$PROJECT_DIR$/venv/include/findDisappearedNumbers.py" />
+        <option value="$PROJECT_DIR$/venv/include/distributeCandies.py" />
       </list>
     </option>
   </component>
@@ -78,7 +90,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="718" />
+    <option name="x" value="794" />
     <option name="y" value="27" />
     <option name="width" value="1206" />
     <option name="height" value="1053" />
@@ -89,7 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,11 +123,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm-dev-zr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -132,7 +144,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.findDisappearedNumbers">
+  <component name="RunManager" selected="Python.distributeCandies">
+    <configuration name="distributeCandies" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonForLeeCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/include" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/include/distributeCandies.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="findDisappearedNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonForLeeCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,9 +245,11 @@
       <item itemvalue="Python.intersect" />
       <item itemvalue="Python.integerBreak" />
       <item itemvalue="Python.findDisappearedNumbers" />
+      <item itemvalue="Python.distributeCandies" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.distributeCandies" />
         <item itemvalue="Python.findDisappearedNumbers" />
         <item itemvalue="Python.integerBreak" />
         <item itemvalue="Python.intersect" />
@@ -238,7 +271,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="718" y="27" width="1206" height="1053" extended-state="4" />
+    <frame x="794" y="27" width="1206" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -246,8 +279,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32875264" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32980973" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32875264" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946146" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2495854" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -274,6 +307,48 @@
     <entry file="file://$PROJECT_DIR$/venv/include/intersection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/include/intersect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/include/findDisappearedNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/include/intersection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/include/intersect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/include/findDisappearedNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/include/intersection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
@@ -295,7 +370,7 @@
     <entry file="file://$PROJECT_DIR$/venv/include/integerBreak.py" />
     <entry file="file://$PROJECT_DIR$/venv/include/intersect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="418">
           <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
@@ -309,8 +384,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/include/findDisappearedNumbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/include/distributeCandies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="24" selection-end-column="34" />
         </state>
       </provider>
     </entry>
