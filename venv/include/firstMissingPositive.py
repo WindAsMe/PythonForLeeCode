@@ -16,6 +16,7 @@ class Solution:
         :rtype: int
         """
         helper = list(set(nums))
+        helper.sort()
         # print(helper)
         ans = 1
         for i in helper:
@@ -28,4 +29,4 @@ class Solution:
 
 
 if __name__ == '__main__':
-    print(Solution.firstMissingPositive([6, 4, 2, 3, 5, 9, 9]))
+    print(Solution.firstMissingPositive([1, 1000]))
