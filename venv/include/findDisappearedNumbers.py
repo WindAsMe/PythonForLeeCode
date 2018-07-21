@@ -5,7 +5,7 @@
 # File     :findDisappearedNumbers.py
 # Location:/Home/PycharmProjects/..
 
-# LeeCode No.448
+# LeetCode No.448
 
 
 class Solution:

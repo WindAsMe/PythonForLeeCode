@@ -5,7 +5,7 @@
 # File     :distributeCandies.py
 # Location:/Home/PycharmProjects/..
 
-# LeeCode No.575
+# LeetCode No.575
 
 
 class Solution:

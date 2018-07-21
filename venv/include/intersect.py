@@ -5,7 +5,7 @@
 # File     :intersect.py
 # Location:/Home/PycharmProjects/..
 
-# LeeCode No.350
+# LeetCode No.350
 
 
 class Solution:
